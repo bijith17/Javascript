@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+<body>
+    <!-- <button onclick="hi()">click here</button> -->
+    <input type="button" value="hello" onclick="hello()">
+    <input type="button" value="click me" ondblclick="one(3)">
+    <p id="qwe">
+
+    </p>
+    <script>
+      
+        function hello()
+        {        
+             document.getElementById("qwe").innerHTML="hi there";
+        }
+        function one(a)
+            {
+                document.write(a*a);
+            }
+            
+            
+    </script>
+    <h1>my functions</h1>
+    
+    <script>
+        function greeting(name){
+            console.log("gd mng"+name)
+
+        }
+        greeting("smith");
+            function add(n1,n2){
+                    console.log(n1+n2)
+
+            }
+            add(12,2);
+    </script>
+</body>
+</html>
